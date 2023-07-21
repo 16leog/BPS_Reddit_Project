@@ -35,4 +35,5 @@ export default async function getData() {
   } catch (error) {
     console.error('Request failed:', error);
   }
+  return [];
 }
