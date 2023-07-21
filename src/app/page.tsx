@@ -9,7 +9,9 @@ export default function Home() {
         <div className=" bg-postsDiv h-0.5 w-14 relative -left-2 "></div>
       </div>
       <div>
-        <Card />
+        <Card title={undefined} author={undefined} thumbnail={undefined} url={undefined} mediaMetadata={undefined} />
+        <Card title={undefined} author={undefined} thumbnail={undefined} url={undefined} mediaMetadata={undefined}/>
+        <Card title={undefined} author={undefined} thumbnail={undefined} url={undefined} mediaMetadata={undefined} />
       </div>
     </main>
   );
